@@ -31,7 +31,7 @@ module.exports = {
     let template = new TransmissionTemplate({
       appId: APPID,
       appKey: APPKEY,
-      transmissionType: 1,
+      transmissionType: 2,
       transmissionContent: {
         key: 'clockIn',
         data: data
